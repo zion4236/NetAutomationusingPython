@@ -45,7 +45,7 @@ def history(account):
 if __name__ == '__main__':
     accouts= get_accounts()
     
-    file = open('report.txt', "w")
+    file = open('report.txt'', "w")
     for account in accouts:        
         print("계정 : ", account)
         file.write("계정 : {0}".format(account))
